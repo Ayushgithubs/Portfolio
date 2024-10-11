@@ -150,93 +150,6 @@ footer p {
   align-items: center;
   gap: 30px;
 }
-
-/* Contact Form Styles */
-.contact-form {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.contact-form .form-group {
-  margin-bottom: 20px;
-}
-
-.contact-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  background-color: #333;
-  color: #fff;
-}
-
-.contact-form .submit-btn {
-  width: 100%;
-  padding: 10px;
-  background-color: #ff6347;
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.contact-form .submit-btn:hover {
-  background-color: #ff4500;
-}
-
-/* Contact Info Styles */
-.contact-info {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.contact-info h3 {
-  margin-bottom: 15px;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideIn {
-  from {
-    transform: translateY(20px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .contact-container {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 .skills-box,
 .education-box,
 .certifications-box {
@@ -265,4 +178,28 @@ footer p {
   margin: 10px 0;
   padding: 15px;
   width: 100%; /* Take full width */
+}
+.social-container {
+  background-color: rgba(149, 69, 69, 0.5); /* White background for the box */
+  border: rgba(189, 107, 107, 0.5);
+  padding: 20px; /* Padding inside the box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px; /* Maximum width of the box */
+  margin: 20px auto; /* Center the box and add vertical margin */
+}
+
+.social-links {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the icons horizontally */
+  gap: 15px; /* Space between icons */
+}
+
+.social-link {
+  color: skyblue; /* Default color for the icons */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-link:hover {
+  color: red; /* Change color on hover (LinkedIn blue) */
 }
