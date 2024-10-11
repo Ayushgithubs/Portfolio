@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio! This project showcases my skills, projects, and experiences as a B.Tech Mechatronics student and a web development learner.
+Welcome to my portfolio!
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
